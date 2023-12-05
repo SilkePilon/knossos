@@ -108,7 +108,7 @@
                     to="/app"
                   >
                     <DownloadIcon class="icon" />
-                    <span class="title">Get Modrinth App</span>
+                    <span class="title">Get The Beehive App</span>
                   </NuxtLink>
                   <hr class="divider" />
                   <button class="item button-transparent" @click="logoutUser()">
@@ -126,7 +126,7 @@
                   class="btn btn-outline btn-primary app-btn"
                   to="/app"
                 >
-                  <DownloadIcon /> Get Modrinth App
+                  <DownloadIcon /> Get The Beehive App
                 </nuxt-link>
               </section>
             </section>
@@ -340,7 +340,7 @@
       <div class="buttons">
         <nuxt-link class="btn btn-outline btn-primary" to="/app">
           <DownloadIcon aria-hidden="true" />
-          Get Modrinth App
+          Get The Beehive App
         </nuxt-link>
         <button class="iconified-button raised-button" @click="changeTheme">
           <MoonIcon v-if="$colorMode.value === 'light'" aria-hidden="true" />

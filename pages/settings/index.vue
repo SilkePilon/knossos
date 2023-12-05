@@ -121,7 +121,7 @@
         <label for="modrinth-app-promos">
           <span class="label__title">Hide Modrinth App promotions</span>
           <span class="label__description">
-            Hides the "Get Modrinth App" buttons from primary navigation. The Modrinth App page can
+            Hides the "Get The Beehive App" buttons from primary navigation. The Modrinth App page can
             still be found on the landing page or in the footer.
           </span>
         </label>
