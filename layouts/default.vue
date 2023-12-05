@@ -450,7 +450,7 @@ export default defineNuxtComponent({
       navRoutes: [
         {
           label: 'Bots',
-          href: '/mods',
+          href: '/bots',
         },
         {
           label: 'Plugins',
@@ -458,7 +458,7 @@ export default defineNuxtComponent({
         },
         {
           label: 'Snippets',
-          href: '/datapacks',
+          href: '/snippets',
         },
         // {
         //   label: 'Shaders',
