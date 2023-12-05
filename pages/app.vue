@@ -57,11 +57,11 @@ onMounted(() => {
 
   if (os.value === 'Windows') {
     downloadLauncher = () => {
-      downloadWindows.value.click()
+      window.location.href = "https://github.com/the-lodestone-project/Beehive";
     }
   } else if (os.value === 'Linux') {
     downloadLauncher = () => {
-      downloadLinux.value.click()
+      window.location.href = "https://github.com/the-lodestone-project/Beehive";
     }
   } else {
     downloadLauncher = () => {
