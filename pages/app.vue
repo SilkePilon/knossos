@@ -144,23 +144,23 @@ useSeoMeta({
     </div>
     <div class="features">
       <h1 class="subheader">
-        Unlike any launcher <br />
-        you've used before
+        Open Source &<br />
+        Fully Free
       </h1>
       <div class="feature-grid">
         <div class="feature gradient-border mods">
           <div class="search-bar">
-            <h4>Installed mods</h4>
+            <h4>Enabled Plugins</h4>
             <div class="mini-input">
               <SearchIcon />
-              <div class="search">Search mods</div>
+              <div class="search">Search Plugins</div>
             </div>
           </div>
           <div class="header row">
             <div />
             <div class="cell">Name</div>
             <div class="cell">Version</div>
-            <div class="cell">Actions</div>
+            <div class="cell">Avalable</div>
           </div>
           <div class="table">
             <div class="row first">
@@ -168,8 +168,8 @@ useSeoMeta({
                 <Avatar size="sm" src="https://cdn.modrinth.com/data/P7dR8mSH/icon.png" />
               </div>
               <div class="cell">
-                <div class="name">Fabric API</div>
-                <div class="description">by modmuss</div>
+                <div class="name">Schematic Builder</div>
+                <div class="description">by CustomCapes</div>
               </div>
               <div class="cell important">0.86.1+1.20.1</div>
               <div class="cell check">
@@ -184,8 +184,8 @@ useSeoMeta({
                 <Avatar size="sm" src="https://cdn.modrinth.com/data/AANobbMI/icon.png" />
               </div>
               <div class="cell">
-                <div class="name">Sodium</div>
-                <div class="description">by jellysquid3</div>
+                <div class="name">Chat Spy</div>
+                <div class="description">by CustomCapes</div>
               </div>
               <div class="cell">mc1.20.1-0.5.0</div>
               <div class="cell check">
@@ -203,8 +203,8 @@ useSeoMeta({
                 />
               </div>
               <div class="cell">
-                <div class="name">Iris Shaders</div>
-                <div class="description">by coderbot</div>
+                <div class="name">Cactus Farm Builder</div>
+                <div class="description">by CustomCapes</div>
               </div>
               <div class="cell">1.6.5+1.20.1</div>
               <div class="cell check">
@@ -219,8 +219,8 @@ useSeoMeta({
                 <Avatar size="sm" src="https://cdn.modrinth.com/data/gvQqBUqZ/icon.png" />
               </div>
               <div class="cell">
-                <div class="name">Lithium</div>
-                <div class="description">by jellysquid3</div>
+                <div class="name">Auto AFK</div>
+                <div class="description">by CustomCapes</div>
               </div>
               <div class="cell">mc1.20.1-0.11.2</div>
               <div class="cell check">
@@ -235,8 +235,8 @@ useSeoMeta({
                 <Avatar size="sm" src="https://cdn.modrinth.com/data/mOgUt4GM/icon.png" />
               </div>
               <div class="cell">
-                <div class="name">Mod Menu</div>
-                <div class="description">by Prospector</div>
+                <div class="name">Container Viewer 	</div>
+                <div class="description">by CustomCapes</div>
               </div>
               <div class="cell">7.2.1</div>
               <div class="cell check">
@@ -251,8 +251,8 @@ useSeoMeta({
                 <Avatar size="sm" src="https://cdn.modrinth.com/data/9s6osm5g/icon.png" />
               </div>
               <div class="cell">
-                <div class="name">Cloth Config API</div>
-                <div class="description">by shedaniel</div>
+                <div class="name">Chat to Discord</div>
+                <div class="description">by CustomCapes</div>
               </div>
               <div class="cell">11.1.106+fabric</div>
               <div class="cell check">
@@ -267,8 +267,8 @@ useSeoMeta({
                 <Avatar size="sm" src="https://cdn.modrinth.com/data/lhGA9TYQ/icon.png" />
               </div>
               <div class="cell">
-                <div class="name">Architectury API</div>
-                <div class="description">by shedaniel</div>
+                <div class="name">Knockback</div>
+                <div class="description">by CustomCapes</div>
               </div>
               <div class="cell">9.1.12+fabric</div>
               <div class="cell check">
@@ -286,8 +286,8 @@ useSeoMeta({
                 />
               </div>
               <div class="cell">
-                <div class="name">Craftify</div>
-                <div class="description">by ThatGravyBoat</div>
+                <div class="name">Auto Eater</div>
+                <div class="description">by CustomCapes</div>
               </div>
               <div class="cell">8.5.2023</div>
               <div class="cell check">
@@ -298,10 +298,9 @@ useSeoMeta({
               </div>
             </div>
           </div>
-          <h3>Mod management</h3>
+          <h3>Plugin management</h3>
           <p>
-            Modrinth makes it easy to manage all your mods in one place. You can install, uninstall,
-            and update mods with a single click.
+            Beehive has a wide colection of plugins available for use. You can enable them with a single click.
           </p>
         </div>
         <div class="feature gradient-border playing">
