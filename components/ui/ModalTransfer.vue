@@ -2,7 +2,7 @@
   <Modal ref="modal" :header="'Transfer to ' + $formatWallet(wallet)">
     <div class="modal-transfer">
       <span
-        >You are initiating a transfer of your revenue from Modrinth's Creator Monetization Program.
+        >You are initiating a transfer of your revenue from Beehive's Creator Monetization Program.
         How much of your <strong>{{ $formatMoney(balance) }}</strong> balance would you like to
         transfer?</span
       >
@@ -30,7 +30,7 @@
             I acknowledge that an estimated
             {{ $formatMoney(calcProcessingFees()) }} will be deducted from the amount I receive to
             cover {{ $formatWallet(wallet) }} processing fees and that any excess will be returned
-            to my Modrinth balance.
+            to my Beehive balance.
           </template>
         </Checkbox>
         <Checkbox

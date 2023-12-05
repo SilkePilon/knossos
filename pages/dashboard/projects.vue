@@ -163,7 +163,7 @@
         <div class="input-group">
           <button class="iconified-button brand-button" @click="$refs.modal_creation.show()">
             <PlusIcon />
-            Create a project
+            Create a bot
           </button>
         </div>
       </div>
@@ -372,7 +372,7 @@ export default defineNuxtComponent({
     }
   },
   head: {
-    title: 'Projects - Modrinth',
+    title: 'Projects - Beehive',
   },
   created() {
     this.UPLOAD_VERSION = 1 << 0

@@ -1,5 +1,5 @@
 name: Enhancement
-description: Suggest an enhancement for an existing Modrinth feature
+description: Suggest an enhancement for an existing Beehive feature
 labels: [enhancement]
 body:
   - type: textarea

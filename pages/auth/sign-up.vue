@@ -89,12 +89,12 @@
       <Checkbox
         v-model="subscribe"
         class="subscribe-btn"
-        label="Subscribe to updates about Modrinth"
-        description="Subscribe to updates about Modrinth"
+        label="Subscribe to updates about Beehive"
+        description="Subscribe to updates about Beehive"
       />
 
       <p>
-        By creating an account, you agree to Modrinth's
+        By creating an account, you agree to Beehive's
         <NuxtLink to="/legal/terms" class="text-link">Terms</NuxtLink> and
         <NuxtLink to="/legal/privacy" class="text-link">Privacy Policy</NuxtLink>.
       </p>
@@ -123,7 +123,7 @@ import MailIcon from 'assets/icons/auth/mail.svg'
 import GitLabIcon from 'assets/icons/auth/sso-gitlab.svg'
 
 useHead({
-  title: 'Sign Up - Modrinth',
+  title: 'Sign Up - Beehive',
 })
 
 const auth = await useAuth()

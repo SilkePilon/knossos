@@ -81,7 +81,7 @@ const messages = defineMessages({
   sessionsDescription: {
     id: 'settings.sessions.description',
     defaultMessage:
-      "Here are all the devices that are currently logged in with your Modrinth account. You can log out of each one individually.\n\nIf you see an entry you don't recognize, log out of that device and change your Modrinth account password immediately.",
+      "Here are all the devices that are currently logged in with your Beehive account. You can log out of each one individually.\n\nIf you see an entry you don't recognize, log out of that device and change your Beehive account password immediately.",
   },
   sessionsLastAccessedAt: {
     id: 'settings.sessions.label.last-accessed-at',
@@ -102,7 +102,7 @@ const messages = defineMessages({
 })
 
 useHead({
-  title: () => `${formatMessage(messages.sessionsTitle)} - Modrinth`,
+  title: () => `${formatMessage(messages.sessionsTitle)} - Beehive`,
 })
 
 const data = useNuxtApp()

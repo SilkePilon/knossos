@@ -54,7 +54,7 @@
 import { SettingsIcon, RightArrowIcon } from 'omorphia'
 
 useHead({
-  title: 'Verify Email - Modrinth',
+  title: 'Verify Email - Beehive',
 })
 
 const auth = await useAuth()

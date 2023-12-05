@@ -323,11 +323,11 @@ const messages = defineMessages({
   },
   profileMetaDescription: {
     id: 'profile.meta.description',
-    defaultMessage: "Download {username}'s projects on Modrinth",
+    defaultMessage: "Download {username}'s projects on Beehive",
   },
   profileMetaDescriptionWithBio: {
     id: 'profile.meta.description-with-bio',
-    defaultMessage: "{bio} - Download {username}'s projects on Modrinth",
+    defaultMessage: "{bio} - Download {username}'s projects on Beehive",
   },
   profileReportButton: {
     id: 'profile.button.report',
@@ -403,7 +403,7 @@ if (user.value.username !== route.params.id) {
   await navigateTo(`/user/${user.value.username}`, { redirectCode: 301 })
 }
 
-const title = `${user.value.username} - Modrinth`
+const title = `${user.value.username} - Beehive`
 const description = ref(
   user.value.bio
     ? `${formatMessage(messages.profileMetaDescriptionWithBio, {

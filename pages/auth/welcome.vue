@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Welcome to Modrinth!</h1>
+    <h1>Welcome to Beehive!</h1>
 
     <section class="auth-form">
       <p>
@@ -11,8 +11,8 @@
       <Checkbox
         v-model="subscribe"
         class="subscribe-btn"
-        label="Subscribe to updates about Modrinth"
-        description="Subscribe to updates about Modrinth"
+        label="Subscribe to updates about Beehive"
+        description="Subscribe to updates about Beehive"
       />
 
       <button class="btn btn-primary continue-btn centered-btn" @click="continueSignUp">
@@ -20,7 +20,7 @@
       </button>
 
       <p>
-        By creating an account, you have agreed to Modrinth's
+        By creating an account, you have agreed to Beehive's
         <NuxtLink to="/legal/terms" class="text-link">Terms</NuxtLink> and
         <NuxtLink to="/legal/privacy" class="text-link">Privacy Policy</NuxtLink>.
       </p>
@@ -31,7 +31,7 @@
 import { Checkbox, RightArrowIcon } from 'omorphia'
 
 useHead({
-  title: 'Welcome - Modrinth',
+  title: 'Welcome - Beehive',
 })
 
 const subscribe = ref(true)

@@ -97,9 +97,9 @@ const scrollToSection = () => {
   })
 }
 
-const title = 'Download the Modrinth App!'
+const title = 'Download the Beehive App!'
 const description =
-  'The Modrinth App is a unique, open source launcher that allows you to play your favorite mods, and keep them up to date, all in one neat little package.'
+  'The Beehive App is a unique, open source launcher that allows you to play your favorite mods, and keep them up to date, all in one neat little package.'
 
 useSeoMeta({
   title,
@@ -306,11 +306,11 @@ useSeoMeta({
         <div class="feature gradient-border playing">
           <div class="text">
             <h3>Play with your favorite mods</h3>
-            <p>Use the Modrinth App to download and play with your favorite mods and modpacks.</p>
+            <p>Use the Beehive App to download and play with your favorite mods and modpacks.</p>
           </div>
           <img
             src="https://cdn-raw.modrinth.com/app-landing/cobblemon-launcher.webp"
-            alt="The Modrinth App playing Cobblemon for Fabric"
+            alt="The Beehive App playing Cobblemon for Fabric"
             class="launcher"
           />
           <img
@@ -362,7 +362,7 @@ useSeoMeta({
           <h3>Share Modpacks</h3>
           <p>
             Build, share, and play modpacks with any of the thousands of mods and modpacks hosted
-            here on Modrinth.
+            here on Beehive.
           </p>
           <div class="export-card">
             <Avatar
@@ -401,9 +401,9 @@ useSeoMeta({
                   </div>
                 </div>
               </div>
-              <div class="cell important">Modrinth App</div>
+              <div class="cell important">Beehive App</div>
               <div class="cell important">Small</div>
-              <div class="cell important">{{ '< 150 MB' }}</div>
+              <div class="cell important">{{ '< 300 MB' }}</div>
             </div>
             <div class="row">
               <div class="cell">
@@ -428,7 +428,7 @@ useSeoMeta({
           </div>
           <h3>Performant</h3>
           <p>
-            The Modrinth App performs better than many of the leading mod managers, using just 150mb
+            The Beehive App performs better than many of the leading minecraft bot projects, using just 300mb
             of RAM!
           </p>
         </div>
@@ -461,7 +461,7 @@ useSeoMeta({
           </div>
           <h3>Website Integration</h3>
           <p>
-            The Modrinth App is fully integrated with the website, so you can access all your
+            The Beehive App is fully integrated with the website, so you can access all your
             favorite projects from the app!
           </p>
         </div>
@@ -470,7 +470,7 @@ useSeoMeta({
             <h3>Profile importing</h3>
             <p>
               Import all your favorite profiles from the launcher you were using before, and get
-              started with the Modrinth App in seconds!
+              started with the Beehive App in seconds!
             </p>
           </div>
           <div class="ring inner-ring">
@@ -732,7 +732,7 @@ useSeoMeta({
     <div ref="downloadSection" class="footer">
       <div class="section-badge">Download options</div>
       <div class="section-subheader">
-        <div class="section-subheader-title">Download the Modrinth App</div>
+        <div class="section-subheader-title">Download the Beehive App</div>
         <div class="section-subheader-description">
           Our desktop app is available across all platforms, <br />
           choose your desired version.
@@ -826,7 +826,7 @@ useSeoMeta({
         </div>
       </div>
       <p class="terms">
-        By downloading the Modrinth App you agree to our
+        By downloading the Beehive App you agree to our
         <nuxt-link to="/legal/terms"> Terms</nuxt-link> and
         <nuxt-link to="/legal/privacy">Privacy Policy.</nuxt-link>
       </p>
@@ -917,7 +917,7 @@ useSeoMeta({
       <div class="overlay">
         <h2 class="main-header">
           Read more about <br />
-          <strong class="main-header-strong">Modrinth</strong>
+          <strong class="main-header-strong">Beehive</strong>
         </h2>
         <a
           href="https://blog.modrinth.com/?utm_source=website&utm_source=homepage&utm_campaign=newsletter"

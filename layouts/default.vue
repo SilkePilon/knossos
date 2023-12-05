@@ -5,11 +5,11 @@
       class="email-nag"
     >
       <template v-if="auth.user.email">
-        <span>For security purposes, please verify your email address on Modrinth.</span>
+        <span>For security purposes, please verify your email address on Beehive.</span>
         <button class="btn" @click="resendVerifyEmail">Re-send verification email</button>
       </template>
       <template v-else>
-        <span>For security purposes, please enter your email on Modrinth.</span>
+        <span>For security purposes, please enter your email on Beehive.</span>
         <nuxt-link class="btn" to="/settings/account">
           <SettingsIcon />
           Visit account settings
@@ -19,7 +19,7 @@
     <header class="site-header" role="presentation">
       <section class="navbar columns" role="navigation">
         <section class="logo column" role="presentation">
-          <NuxtLink class="button-base" to="/" aria-label="Modrinth home page">
+          <NuxtLink class="button-base" to="/" aria-label="Beehive home page">
             <BrandTextLogo aria-hidden="true" class="text-logo" />
           </NuxtLink>
         </section>
@@ -75,7 +75,7 @@
                   <hr class="divider" />
                   <button class="item button-transparent" @click="$refs.modal_creation.show()">
                     <PlusIcon class="icon" />
-                    <span class="title">Create a project</span>
+                    <span class="title">Create a bot</span>
                   </button>
                   <hr class="divider" />
                   <NuxtLink class="item button-transparent" to="/dashboard/notifications">
@@ -187,7 +187,7 @@
               </button>
               <button class="iconified-button" @click="$refs.modal_creation.show()">
                 <PlusIcon aria-hidden="true" />
-                Create a project
+                Create a bot
               </button>
               <NuxtLink class="iconified-button" to="/dashboard/follows">
                 <HeartIcon aria-hidden="true" />
@@ -281,10 +281,10 @@
       <slot id="main" />
     </main>
     <footer>
-      <div class="logo-info" role="region" aria-label="Modrinth information">
+      <div class="logo-info" role="region" aria-label="Beehive information">
         <BrandTextLogo aria-hidden="true" class="text-logo" @click="developerModeIncrement()" />
         <p>
-          Modrinth is
+          Beehive is
           <a
             :target="$external()"
             href="https://github.com/modrinth"
@@ -310,16 +310,11 @@
             >{{ config.public.hash.substring(0, 7) }}</a
           >
         </p>
-        <p>© Rinth, Inc.</p>
+        <p>Beehive</p>
       </div>
       <div class="links links-1" role="region" aria-label="Legal">
-        <h4 aria-hidden="true">Company</h4>
-        <nuxt-link to="/legal/terms"> Terms</nuxt-link>
         <nuxt-link to="/legal/privacy"> Privacy</nuxt-link>
         <nuxt-link to="/legal/rules"> Rules</nuxt-link>
-        <a :target="$external()" href="https://careers.modrinth.com"
-          >Careers <span class="count-bubble">1</span></a
-        >
       </div>
       <div class="links links-2" role="region" aria-label="Resources">
         <h4 aria-hidden="true">Resources</h4>
@@ -331,11 +326,6 @@
       <div class="links links-3" role="region" aria-label="Interact">
         <h4 aria-hidden="true">Interact</h4>
         <a rel="noopener" :target="$external()" href="https://discord.modrinth.com"> Discord </a>
-        <a rel="noopener" :target="$external()" href="https://twitter.com/modrinth"> Twitter </a>
-        <a rel="noopener" :target="$external()" href="https://floss.social/@modrinth"> Mastodon </a>
-        <a rel="noopener" :target="$external()" href="https://crowdin.com/project/modrinth">
-          Crowdin
-        </a>
       </div>
       <div class="buttons">
         <nuxt-link class="btn btn-outline btn-primary" to="/app">
@@ -400,27 +390,22 @@ useHead({
 })
 
 const description =
-  'Download Minecraft mods, plugins, datapacks, shaders, resourcepacks, and modpacks on Modrinth. ' +
-  'Discover and publish projects on Modrinth with a modern, easy to use interface and API.'
+  'Project Beehive is an open source Minecraft bot sharing platform with a goal to provide players access to helpful bots at no cost. All in one place!'
 
 useSeoMeta({
-  title: 'Modrinth',
+  title: 'Beehive',
   description,
-  publisher: 'Modrinth',
+  publisher: 'Beehive',
   themeColor: [{ color: '#1bd96a' }],
   colorScheme: 'dark light',
 
   // OpenGraph
-  ogTitle: 'Modrinth',
-  ogSiteName: 'Modrinth',
-  ogDescription: 'Discover and publish Minecraft content!',
+  ogTitle: 'Beehive',
+  ogSiteName: 'Beehive',
+  ogDescription: 'Discover and publish Minecraft bots and code!',
   ogType: 'website',
   ogImage: 'https://cdn.modrinth.com/modrinth-new.png',
   ogUrl: link,
-
-  // Twitter
-  twitterCard: 'summary',
-  twitterSite: '@modrinth',
 })
 
 let developerModeCounter = 0
@@ -464,7 +449,7 @@ export default defineNuxtComponent({
       hideDropdown: false,
       navRoutes: [
         {
-          label: 'Mods',
+          label: 'Bots',
           href: '/mods',
         },
         {
@@ -472,21 +457,21 @@ export default defineNuxtComponent({
           href: '/plugins',
         },
         {
-          label: 'Data Packs',
+          label: 'Snippets',
           href: '/datapacks',
         },
-        {
-          label: 'Shaders',
-          href: '/shaders',
-        },
-        {
-          label: 'Resource Packs',
-          href: '/resourcepacks',
-        },
-        {
-          label: 'Modpacks',
-          href: '/modpacks',
-        },
+        // {
+        //   label: 'Shaders',
+        //   href: '/shaders',
+        // },
+        // {
+        //   label: 'Resource Packs',
+        //   href: '/resourcepacks',
+        // },
+        // {
+        //   label: 'Modpacks',
+        //   href: '/modpacks',
+        // },
       ],
     }
   },

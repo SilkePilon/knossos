@@ -12,5 +12,5 @@ contact_links:
       Suggestions for new features should be made as a Discussion.
     url: https://github.com/orgs/modrinth/discussions/categories/feature-requests
   - name: Documentation
-    about: Useful documentation about Modrinth, its API, and how you can contribute.
+    about: Useful documentation about Beehive, its API, and how you can contribute.
     url: https://docs.modrinth.com

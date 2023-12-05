@@ -131,7 +131,7 @@
 
     <p>
       You must own or have the necessary licenses, rights, consents, and permissions to store,
-      share, and distribute the Content that is uploaded under your Modrinth account.
+      share, and distribute the Content that is uploaded under your Beehive account.
     </p>
 
     <p>
@@ -174,10 +174,10 @@
 
 <script setup>
 const description =
-  'The Content Rules of Modrinth, an open source modding platform focused on Minecraft.'
+  'The Content Rules of Beehive, an open source modding platform focused on Minecraft.'
 
 useSeoMeta({
-  title: 'Content Rules - Modrinth',
+  title: 'Content Rules - Beehive',
   description,
   ogTitle: 'Content Rules',
   ogDescription: description,

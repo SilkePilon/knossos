@@ -1,5 +1,5 @@
 <template>
-  <Modal ref="modal" header="Create a project">
+  <Modal ref="modal" header="Create a bot">
     <div class="modal-creation universal-labels">
       <div class="markdown-body">
         <p>New projects are created as drafts and can be found under your profile page.</p>

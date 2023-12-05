@@ -11,7 +11,7 @@
       <h2 class="title">Enrollment</h2>
       <template v-if="!enrolled && !auth.user.email">
         <p v-if="!enrolled">
-          You are not currently enrolled in Modrinth's Creator Monetization Program. In order to
+          You are not currently enrolled in Beehive's Creator Monetization Program. In order to
           enroll, you must first add a valid email address to your account.
         </p>
         <NuxtLink class="iconified-button" to="/settings/account">
@@ -20,7 +20,7 @@
       </template>
       <template v-else-if="editing || !enrolled">
         <p v-if="!enrolled">
-          You are not currently enrolled in Modrinth's Creator Monetization Program. Setup a method
+          You are not currently enrolled in Beehive's Creator Monetization Program. Setup a method
           of receiving payments below to enable monetization.
         </p>
         <div class="enroll universal-body">
@@ -143,7 +143,7 @@ export default defineNuxtComponent({
     }
   },
   head: {
-    title: 'Monetization settings - Modrinth',
+    title: 'Monetization settings - Beehive',
   },
   methods: {
     getAccountTypes() {

@@ -3,7 +3,7 @@
     <template v-if="color"> <span class="circle" /> {{ $capitalizeString(type) }}</template>
 
     <!-- User roles -->
-    <template v-else-if="type === 'admin'"> <ModrinthIcon /> Modrinth Team</template>
+    <template v-else-if="type === 'admin'"> <ModrinthIcon /> Beehive Team</template>
     <template v-else-if="type === 'moderator'"> <ModeratorIcon /> Moderator</template>
     <template v-else-if="type === 'creator'"><CreatorIcon /> Creator</template>
 

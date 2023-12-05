@@ -105,7 +105,7 @@ import MailIcon from 'assets/icons/auth/mail.svg'
 import GitLabIcon from 'assets/icons/auth/sso-gitlab.svg'
 
 useHead({
-  title: 'Sign In - Modrinth',
+  title: 'Sign In - Beehive',
 })
 
 const auth = await useAuth()

@@ -7,7 +7,7 @@
       />
       <h2>Transfer history</h2>
       <p>
-        All of your transfers from your Modrinth balance to your PayPal or Venmo accounts will be
+        All of your transfers from your Beehive balance to your PayPal or Venmo accounts will be
         listed here:
       </p>
       <div class="grid-table">
@@ -35,7 +35,7 @@ import Badge from '~/components/ui/Badge.vue'
 import Breadcrumbs from '~/components/ui/Breadcrumbs.vue'
 
 useHead({
-  title: 'Transfer history - Modrinth',
+  title: 'Transfer history - Beehive',
 })
 
 const auth = await useAuth()
